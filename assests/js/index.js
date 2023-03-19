@@ -1,7 +1,12 @@
 $(".hamburger-menu").click(function () {
     $(".bar").toggleClass("animate");
     $("#menu").toggleClass("active");
-    console.log('salam');
+    $("#links").toggleClass("active");
+    $(".bar").toggleClass("active");
+    $("a>svg").toggleClass("active");
+    $("nav").toggleClass("active");
+    $("#search").toggleClass("active");
+    $("#add-info").toggleClass("active");
     return false;
 });
 

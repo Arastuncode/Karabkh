@@ -24,7 +24,6 @@ body{
     background-size: cover;
     background-position: center;
     z-index: -1;
-    color: #fff;
 }
 nav{position: relative;}
 *{ transition: all 400ms ease; }
@@ -89,13 +88,13 @@ nav .d-flex{ padding:10px 5px;}
     transform: rotate(-45deg);
     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 a{
     font-family:'Roboto Slab', serif;
     color: #fff;
 }
 
 #menu{
-    width: 100%;
     height: 100vh;
     background: var(--mobile-menu);
     position: fixed;
@@ -104,60 +103,57 @@ a{
     z-index: -1;
     display: block;
 }
+
 #menu.active{right:0;}
+#links.active a{color: #000 ;}
+.bar.active::after{background:#000;}
+.bar.active::before{background:#000;}
+#search svg.active{fill:#000 !important;}
+#search svg{fill:#fff;}
+
 #pages  a{
     color: #000;
-    font-size: 2.25em;
+    font-size: 1.75em;
     font-weight: 600;
-    opacity: .5;   
-    position: relative;
 }
-/* #pages a:hover{
-    opacity: 1;
-    transition: opacity 800ms;
-    color: #fff;
-    text-shadow: 0 0 5px var(--edit), 0 0 25px var(--edit), 0 0 50px var(--edit), 0 0 100px var(--edit);
-    transform: translateX(-0.75em);
-    transition: transform 200ms;
-    display: flex;
-} */
-ul li a:before {
-    content: "";
-    width: 0;
-    height: 5px;
-    background-color: #00bcd4;
-    position: absolute;
-    top: 120%;
-    left: 0;
-    transition: all 0.5s;
-  }
-  
-  ul li a:after {
-    content: "";
-    width: 0;
-    height: 5px;
-    background-color: #f0f;
-    position: absolute;
-    top: 120%;
-    right: 0;
-    transition: all 0.5s;
-  }
-  
-  ul li a:hover:before {
-    width: 50%;
-    transform: translateX(100%);
-  }
-  
-  ul li a:hover:after {
-    width: 50%;
-    transform: translateX(-100%);
-  }
+
 #pages{
     text-align: center !important;
     margin:auto;
     transform: translate(0,70%);
 }
+
 #pages li:nth-child(1) img{width:5%;}
+#search,#add-info{ display: none; }
+
+.add{
+    background:var(--add-info);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    margin: auto;
+}
+.add a{ color: #000 !important;}
+.search{
+    border:1px solid #00000026;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+    margin:10px;
+}
+.search a{
+    font-size: 14px !important;
+    font-weight:800;
+    margin:0 10px;
+    color: #000;
+}
+.mobile-menu{display: block;}
+
+
 @media only screen and (min-width:992px) {
     .container {
         max-width: 100%;
@@ -165,9 +161,9 @@ ul li a:before {
     }
     
     #logo{max-width:15%;}
+    #menu{width: 60%;}
     
     #links{
-        /* padding: 10px 0 0 30px;  */
         text-align: end;
         max-width:100%;
         text-transform: capitalize; 
@@ -238,5 +234,58 @@ ul li a:before {
         border-right: 12px solid transparent;
         border-bottom: 24px solid #fff;
     }
-    #menu{ width: 52%; }
+    #add-info{ display:block; }
+    nav a svg{ fill:#fff; }
+    #pages{ position: relative; }
+    #pages a{ opacity: .5; }
+    #pages a:hover{ 
+        opacity: 1;
+        transition: opacity 800ms;
+        color: #fff;
+        text-shadow: 0 0 5px var(--edit), 0 0 25px var(--edit), 0 0 50px var(--edit), 0 0 100px var(--edit);
+    }
+    #pages li a:before {
+        content: "";
+        width: 0;
+        height: 5px;
+        background: var(--add-info);
+        position: absolute;
+        bottom: -5%;
+        left: 0;
+        transition: all 0.5s;
+        margin:10px 0 0 0;
+    }   
+      
+    #pages li a:after {
+        content: "";
+        width: 0;
+        height: 5px;
+        background: var(--active-tab);
+        position: absolute;
+        bottom: -5%;
+        right: 0;
+        transition: all 0.5s;
+        margin:10px 0 0 0;
+    }
+      
+    #pages li a:hover:before {
+        width: 50%;
+        transform: translateX(100%);
+    }
+      
+    #pages li a:hover:after {
+        width: 50%;
+        transform: translateX(-100%);
+    }
+    .mobile-menu{display: none;}
+}
+
+@media only screen and (min-width: 1249px) and (max-width: 1499px) { #menu { width: 80% !important; } }
+
+@media only screen and (min-width: 999px) and (max-width: 1249px) { #menu { width: 80% !important; } }
+
+@media only screen and (min-width:768px) and (max-width: 999px) { 
+    #menu { width: 100% !important; } 
+    nav a svg.active{fill:#000 !important;}
+    nav a svg{fill:#fff;}
 }
