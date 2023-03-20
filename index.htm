@@ -7,12 +7,12 @@
     <link rel="icon" href="https://karabakhlife.az/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assests/style/reset.css">
     <link rel="stylesheet" href="./assests/style/style.css">
-    <title>Document</title>
+    <title>Karabakh Life</title>
 </head>
 
 <body>
     <header>
-        <nav class="container">
+        <nav>
             <div class="d-flex">
                 <a href="index.htm" id="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="186" height="40" viewBox="0 0 186 40">
@@ -32,18 +32,8 @@
                     </svg>
                 </a>
                 <div id="links" class="d-flex">
-                    <div id="lang">
-                        <a href="#">EN</a>
-                        <a href="#">RU</a>
-                    </div>
-                    <div id="search">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M2 4V20H11.2949C10.9669 18.9 10.8907 17.6906 11.1777 16.4316C11.7917 13.7356 14.0065 11.5953 16.7285 11.1133C18.6995 10.7643 20.549 11.2468 22 12.2598V6H12L10 4H2ZM18 13C15.2 13 13 15.2 13 18C13 20.8 15.2 23 18 23C19 23 20.0008 22.6992 20.8008 22.1992L22.5996 24L24 22.5996L22.1992 20.8008C22.6992 20.0008 23 19 23 18C23 15.2 20.8 13 18 13ZM18 15C19.7 15 21 16.3 21 18C21 19.7 19.7 21 18 21C16.3 21 15 19.7 15 18C15 16.3 16.3 15 18 15Z" />
-                        </svg>
-                        <a href="#">QƏHRƏMANLARINI MƏLUMATLARINI AXTAR </a>
-                    </div>
                     <div id="add-info">
-                        <a href="#" class="btn dropdown" id="add">Məlumat əlavə et</a>
+                        <p class="btn dropdown" id="add">Məlumat əlavə et</p>
                         <ul class="dropdown-menu">
                             <li><a href="#">Şəhidlər haqqında</a></li>
                             <li><a href="#">Qarabağ fotobank</a></li>
@@ -67,12 +57,75 @@
                     <li><a href="#">PREZİDENTİN ÇIXIŞLARI</a></li>
                     <li><a href="#">VİDEO ÇARXLAR</a></li>
                     <li><a href="#">BİZİMLƏ ƏLAQƏ</a></li>
-                    <li class="mobile-menu"><a href="#">Məlumat əlavə et</a> </li>
-                    <li class="mobile-menu"><a href="#">QƏHRƏMANLARINI MƏLUMATLARINI AXTAR </a> </li>
                 </ul>
             </div>
         </nav>
     </header>
+    <main>
+        <div id="popover">
+            <div id="popover-menu">
+                <ul>
+                    <li><a href="#">Şəhidlər haqqında</a></li>
+                    <li><a href="#">Qarabağ fotobank</a></li>
+                    <li><a href="#">Məktub və hekayə</a></li>
+                </ul>
+            </div>
+            <button id="popover-trigger">
+                <img src="./assests/img/plus.svg" alt="">
+            </button>
+        </div>
+        <div class="container">
+           <div id="cards">
+                <div class="card">
+                    <a href="#"><img src="./assests/img/80-banner.jpg" alt=""></a>
+                    <div class="text">
+                        <p class="title">Qarabağ Azərbaycandır!</p>
+                        <h4>Müharibə qəhrəmanları</h4>
+                        <p class="date">1988-2010-cu illər</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="./assests/img/war_hero_2.png" alt=""></a>
+                    <div class="text">
+                        <p class="title">Qarabağdan xatİrə fotolar</p>
+                        <h4>Qarabağ fotobank</h4>
+                        <p class="date">Tarixi azərbaycan</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="./assests/img/war_hero_4.png" alt=""></a>
+                    <div class="text">
+                        <p class="title">Qüdrətli AZƏRBAYCAN ORDUSU</p>
+                        <h4>Hərbi parad</h4>
+                        <p class="date">YENİLMƏZ ORDU</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="./assests/img/war_hero_7.png" alt=""></a>
+                    <div class="text">
+                        <p class="title">QARABAĞ AZƏRBAYCANDIR</p>
+                        <h4>Prezidentin çıxışları</h4>
+                        <p class="date"><span>Bütün</span> Çıxışlar</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="./assests/img/war_hero_6.png" alt=""></a>
+                    <div class="text">
+                        <p class="title">Bİzə göndərİlən</p>
+                        <h4>Məktub və hekayələr</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="./assests/img/war_hero_9.png" alt=""></a>
+                    <div class="text">
+                        <p class="title">Video çarxlar</p>
+                        <h4>Şəhidləri unutma</h4>
+                        <p class="date">30 Video</p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </main>
     <script src="https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="./assests/js/jquery.js"></script>

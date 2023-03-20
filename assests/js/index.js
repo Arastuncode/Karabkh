@@ -5,11 +5,15 @@ $(".hamburger-menu").click(function () {
     $(".bar").toggleClass("active");
     $("a>svg").toggleClass("active");
     $("nav").toggleClass("active");
-    $("#search").toggleClass("active");
     $("#add-info").toggleClass("active");
+    $("main").toggleClass("none")
     return false;
 });
 
 $(".dropdown").click(function () {
-    $(this).nextAll("ul").fadeToggle("fast");
+    $(".dropdown-menu").fadeToggle("fast");
 })
+
+$("#popover-trigger").click(function () {
+    $("#popover-menu").fadeToggle( );
+});
