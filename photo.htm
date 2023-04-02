@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://karabakhlife.az/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assests/style/reset.css">
     <link rel="stylesheet" href="./assests/style/style.css">
+    <link rel="stylesheet" href="./assests/style/photo.css">
     <title>Karabakh Life</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="d-flex nav">
+            <div class="d-flex">
                 <a href="index.htm" id="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="186" height="40" viewBox="0 0 186 40">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -74,140 +76,34 @@
         </nav>
     </header>
     <main>
-        <div id="popover">
-            <div id="popover-menu">
-                <ul>
-                    <li><a href="#">Şəhidlər haqqında</a></li>
-                    <li><a href="#">Qarabağ fotobank</a></li>
-                    <li><a href="#">Məktub və hekayə</a></li>
-                </ul>
-            </div>
-            <button id="popover-trigger">
-                <img src="./assests/img/plus.svg" alt="">
-            </button>
-        </div>
         <div class="container">
-           <div id="mobile-cards">
-                <article class="card">
-                    <a href="#"><img src="./assests/img/80-banner.jpg" alt=""></a>
-                    <div class="text ">
-                        <p class="title">Qarabağ Azərbaycandır!</p>
-                        <h4>Müharibə qəhrəmanları</h4>
-                        <p class="date">1988-2010-cu illər</p>
-                    </div>
-                </article>
-                <article class="card">
-                    <a href="#"><img src="./assests/img/war_hero_2.png" alt=""></a>
-                    <div class="text">
-                        <p class="title">Qarabağdan xatİrə fotolar</p>
-                        <h4>Qarabağ fotobank</h4>
-                        <p class="date">Tarixi azərbaycan</p>
-                    </div>
-                </article>
-                <article class="card">
-                    <a href="#"><img src="./assests/img/war_hero_4.png" alt=""></a>
-                    <div class="text">
-                        <p class="title">Qüdrətli AZƏRBAYCAN ORDUSU</p>
-                        <h4>Hərbi parad</h4>
-                        <p class="date">YENİLMƏZ ORDU</p>
-                    </div>
-                </article>
-                <article class="card">
-                    <a href="#"><img src="./assests/img/war_hero_7.png" alt=""></a>
-                    <div class="text">
-                        <p class="title">QARABAĞ AZƏRBAYCANDIR</p>
-                        <h4>Prezidentin çıxışları</h4>
-                        <p class="date"><span>Bütün</span> Çıxışlar</p>
-                    </div>
-                </article>
-                <article class="card">
-                    <a href="#"><img src="./assests/img/war_hero_6.png" alt=""></a>
-                    <div class="text">
-                        <p class="title">Bİzə göndərİlən</p>
-                        <h4>Məktub və hekayələr</h4>
-                    </div>
-                </article>
-                <article class="card">
-                    <a href="#"><img src="./assests/img/war_hero_9.png" alt=""></a>
-                    <div class="text">
-                        <p class="title">Video çarxlar</p>
-                        <h4>Şəhidləri unutma</h4>
-                        <p class="date">30 Video</p>
-                    </div>
-                </article>
-           </div>
-           <div id="cards" class="row">
-            <article class="card col-4 fleft"> 
-                <a href="#"><img class="image" src="./assests/img/war_hero_3.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qarabağ Azərbaycandır!</p>
-                    <h4>Müharibə qəhrəmanları</h4>
-                    <p class="date">1988-2010-cu illər</p>
-                </div>
-            </article>
-            <article class="card col-4 fleft">
-                <a href="#"><img class="image" src="./assests/img/80-banner.jpg" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qarabağdan xatİrə fotolar</p>
-                    <h4>Şəhidlərimizi hörmətlə anırıq</h4>
-                    <p class="date">Tarixi azərbaycan</p>
-                </div>
-            </article>
-            <article class="card col-4 fleft">
-                <a href="#"><img class="image" src="./assests/img/war_hero_1.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qarabağ Azərbaycandır!</p>
-                    <h4>Müharibə qəhrəmanları</h4>
-                    <p class="date">2010-2022-ci illər</p>
-                </div>
-            </article>
-            <article class="card col-6 fleft">
-                <a href="#"><img src="./assests/img/war_hero_2.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qarabağdan xatİrə fotolar</p>
-                    <h4>Qarabağ fotobank</h4>
-                    <p class="date">Tarixi azərbaycan</p>
-                    
-                </div>
-            </article>
-            <article class="card col-6 fleft">
-                <a href="#"><img src="./assests/img/war_hero_4.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qüdrətli AZƏRBAYCAN ORDUSU</p>
-                    <h4>Hərbi parad</h4>
-                    <p class="date">YENİLMƏZ ORDU</p>
-                </div>
-            </article>
-            <article class="card col-6 fleft">
-                <a href="#"><img src="./assests/img/war_hero_7.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Qarabağ Azərbaycandır!</p>
-                    <h4>Prezidentin çıxışları</h4>
-                    <p class="date"><span>Bütün</span> Çıxışlar</p>
-                </div>
-            </article>
-            <article class="card col-6 fleft">
-                <a href="#"><img src="./assests/img/war_hero_6.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Bİzə göndərİlən</p>
-                    <h4>Məktub və hekayələr</h4>
-                </div>
-            </article>
-            <article class="card  d-flex j-center">
-                <a href="#"><img src="./assests/img/war_hero_9.png" alt="" /></a>
-                <div class="text">
-                    <p class="title">Video çarxlar</p>
-                    <h4>Şəhidləri unutma</h4>
-                    <p class="date">30 video</p>
-                </div>
-            </article>
-       </div>
+            <div class="imglist">
+                <a href="./assests/img/1987ci-il-2may-c-bray-l-rayonu-h-s-nli-me-si-mayovka-piknik-1.jpeg" data-fancybox="group"
+                    data-caption="This image has a caption 1">
+                    <img src="./assests/img/1987ci-il-2may-c-bray-l-rayonu-h-s-nli-me-si-mayovka-piknik-1.jpeg" />
+                </a>
+                <a href="./assests/img/1990-novruz-bayram-xanl-q-k-ndi-2-sayl-m-kt-b-h-y-ti-1.jpg" data-fancybox="group"
+                    data-caption="This image has a caption 2">
+                    <img src="./assests/img/1990-novruz-bayram-xanl-q-k-ndi-2-sayl-m-kt-b-h-y-ti-1.jpg" />
+                </a>
+                <a href="./assests/img/agdam-1.jpg" data-fancybox="group"
+                    data-caption="This image has a caption 3">
+                    <img src="./assests/img/agdam-1.jpg" />
+                </a>
+                <a href="./assests/img/askeran-1.jpg" data-fancybox="group"
+                    data-caption="This image has a caption 4">
+                    <img src="./assests/img/askeran-1.jpg" />
+                </a>
+            </div>
+
         </div>
     </main>
-    <script src="https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+    <script src=" https://kit.fontawesome.com/edff80f9e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./assests/js/jquery.js"></script>
     <script src="./assests/js/index.js"></script>
+    <script src="./assests/js/photo.js"></script>
 </body>
 
 </html>

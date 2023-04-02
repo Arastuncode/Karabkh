@@ -1,0 +1,12 @@
+.imglist {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;   
+}
+.imglist a img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    padding:0 10px;
+    object-fit: contain;
+    mix-blend-mode:difference;
+}
