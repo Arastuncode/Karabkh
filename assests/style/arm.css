@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --main: #151e21;
+    --mobile-menu: #f2f2f2;
+    --add-info: #d1c68c;
+    --add-info-headline: #e7e7e8;
+    --active-tab: #918668;
+    --edit: #303a40;
+    --dot: #c4c4c4;
+    --file-upload: #c4c4c41a;
+    --submit-btn: #908668;
+    --checkbox: #d4d4d4;
+    --image-upload: #dfdcd3;
+    --tooltip-hover: #f3f2eb;
+    --input-delete: #e1171714;
+    --page-link: #eee;
+    --input: #ffffff80;
+    --input-form: #22222280;
+    --add-info-tab: #151e214d;
+    --add-info-p: #686868;
+}
+@media only screen and (min-width:992px) {}

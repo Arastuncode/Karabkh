@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --main: #151e21;
+    --mobile-menu: #f2f2f2;
+    --add-info: #d1c68c;
+    --add-info-headline: #e7e7e8;
+    --active-tab: #918668;
+    --edit: #303a40;
+    --dot: #c4c4c4;
+    --file-upload: #c4c4c41a;
+    --submit-btn: #908668;
+    --checkbox: #d4d4d4;
+    --image-upload: #dfdcd3;
+    --tooltip-hover: #f3f2eb;
+    --input-delete: #e1171714;
+    --page-link: #eee;
+    --input: #ffffff80;
+    --input-form: #22222280;
+    --add-info-tab: #151e214d;
+    --add-info-p: #686868;
+}
+.card img{width: 100%; object-fit: cover;}
+#mobile-cards{margin:30px;display: block;}
+#cards{display: none;}
+.card{position: relative;margin:0 0 50px 0;}
+.card:hover{transform:scale(1.02)}
+.text{
+    position:absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Roboto Slab', serif;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    color: var(--add-info);
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    font-weight:600;
+    margin:10px 0;
+}
+.date{ font-weight: 500; }
+@media only screen and (min-width:992px) {
+
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col-4{ width:33%;}
+    .col-6{ width:50%;}
+    .fleft{ float:left; }
+    .fright{ float:right; }
+    .col-6:last-child{ margin: auto;}
+    .card{padding: 10px; }
+    #mobile-cards{ display: none; }
+    #cards{ display:block; }
+    .card img{
+        width: 100%;
+        margin: auto;
+        aspect-ratio: 5/5;
+        object-fit: contain;
+        mix-blend-mode:difference;
+    }
+    .text{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin:0 10px;
+    }
+}
