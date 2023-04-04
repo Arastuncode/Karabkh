@@ -137,7 +137,13 @@ nav a svg.active{fill:#000 !important;}
 .add a{ color: #000 !important;}
 .mobile-menu{display: block;}
 #add-info{display: none;}
-
+h1{
+    color: #fff;
+    font-family:'Roboto Slab', serif;
+    font-size: 40px;
+    width: max-content;
+    margin: auto;
+}
 @media only screen and (min-width:992px) {
     nav {
         max-width: 100%;
@@ -232,9 +238,19 @@ nav a svg.active{fill:#000 !important;}
         margin:10px 0 0 0;
     }
 
-    .mobile-menu{display: none;}
-   
+    .mobile-menu{display: none;}   
     .j-center{justify-content: center;}
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col-12{width: 100%;}
+    .col-8{width: 65%;}
+    .col-6{width: 50%;}
+    .col-4{width: 33%;}
+    .fleft{float: left;}
+    .fright{float: right;}
 }
 
 article {z-index: -10;}
