@@ -100,10 +100,10 @@ a{
     position: fixed;
     right: -100%;
     top: 0;
-    z-index: -1;
+    z-index: 1;
     display: block;
 }
-
+#links{z-index: 10;}
 #menu.active{right:0;}
 #links.active a{color: #000 ;}
 .bar.active::after{background:#000;}
@@ -144,6 +144,41 @@ h1{
     width: max-content;
     margin: auto;
 }
+
+#popover {
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    bottom: -5%;
+    right: 1%;
+    display: block;
+    z-index: 10;
+    text-align: end;
+}
+#popover:hover{ filter: brightness(85%); }
+#popover-trigger{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--add-info);
+    border: none;
+    margin: 40px 0;
+    padding:5px 0 0 0;
+    position: relative;
+}
+#popover-menu {
+    position: absolute;
+    top: -60%;
+    left:10%;
+    transition: 5s ease;
+    transform: scale(0.9);
+    transform-origin: top;
+    display: none;
+    background: #fff;
+    transition: all .4 ease;
+}
+#popover-menu a{ color: #000; }
+#popover-menu li{ padding: 10px; }
 @media only screen and (min-width:992px) {
     nav {
         max-width: 100%;
@@ -251,9 +286,19 @@ h1{
     .col-4{width: 33%;}
     .fleft{float: left;}
     .fright{float: right;}
+    #popover {
+        width: 250px;
+        height: 150px;
+        position: fixed;
+        bottom: -5%;
+        right: -5%;
+        display: block;
+        z-index: 10;
+        text-align: center;
+    }
 }
 
-article {z-index: -10;}
+/* article {z-index: -10;} */
 @media only screen and (min-width: 1249px) and (max-width: 1499px) { #menu { width: 80% !important; } }
 
 @media only screen and (min-width: 999px) and (max-width: 1249px) { #menu { width: 80% !important; } }
@@ -263,39 +308,3 @@ article {z-index: -10;}
     nav a svg.active{fill:#000 !important;}
     nav a svg{fill:#fff;}
 }
-
-
-#popover {
-    width: 250px;
-    height: 150px;
-    position: fixed;
-    bottom: -5%;
-    right: -5%;
-    display: block;
-    z-index: 10;
-    text-align: center;
-}
-#popover:hover{ filter: brightness(85%); }
-#popover-trigger{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: var(--add-info);
-    border: none;
-    margin: 40px 0;
-    padding:5px 0 0 0;
-    position: relative;
-}
-#popover-menu {
-    position: absolute;
-    top: -60%;
-    left:-10%;
-    transition: 5s ease;
-    transform: scale(0.9);
-    transform-origin: top;
-    display: none;
-    background: #fff;
-    transition: all .4 ease;
-}
-#popover-menu a{ color: #000; }
-#popover-menu li{ padding: 10px; }
