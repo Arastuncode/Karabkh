@@ -46,7 +46,7 @@ main div img{
 .modal-toggle svg {width: 30%;margin:0 15px;}
 .text{margin:20px 0;}
 main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); }
-h5{color: #fff;text-align: start;width: 80%;}
+h3{color: #fff;text-align: start;width: 80%;}
 h1{font-size:5vw;}
 h2{
     font-size:93px;
@@ -69,7 +69,7 @@ p{
     padding:15px 30px;
     position: fixed;
     top: 8%;
-    left: 45%;
+    left: 5%;
     display: none;
     text-align: start;
 }
@@ -92,6 +92,7 @@ iframe{
     font-weight: bold;
     margin:0 0 0 15px;
 }
+span,.d-none{ display: none; }
 @media only screen and (min-width:992px) {
     .video img{ height: auto; }
     #text{ width: 70%; }
