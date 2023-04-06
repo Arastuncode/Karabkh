@@ -123,6 +123,7 @@ nav a svg.active{fill:#000 !important;}
     margin:auto;
     transform: translate(0,70%);
 }
+#pages img{width: 100%; }
 
 #pages li:nth-child(1) img{width:5%;}
 

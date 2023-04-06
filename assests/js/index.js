@@ -4,10 +4,8 @@ $(".hamburger-menu").click(function () {
   $("#links").toggleClass("active");
   $(".bar").toggleClass("active");
   $("a>svg").toggleClass("active");
-  // $("nav").toggleClass("active");
   $("#add-info").toggleClass("active");
   $("article").toggleClass("none");
-  $(this).appendChild("#links")
   return false;
 });
 
