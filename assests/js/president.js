@@ -2,10 +2,10 @@ let h5 = $("#h5")
 let iframe = $("iframe")
 $(".modal-toggle").click(function () {
     $('.modal').fadeToggle('fast');
-    h5.html($(this).next('p').html());
-    let src = $(this).closest("div").find("img").att()
-    console.log(src);
-    // iframe.attr("src",src)    
+    let src = $(this).next('span').html() 
+    iframe.attr("src",src.split(",")[0])   
+    h5.html(src.split(",")[1]);
+    // console.log(src.split(",")[0]);
 });  
 $(".close").click(function () {
     $('.modal').fadeToggle('fast');
