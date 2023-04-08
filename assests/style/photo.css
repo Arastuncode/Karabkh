@@ -23,7 +23,7 @@
     padding: 10px ;
     text-align: center;
 }
-.imglist a {width: 45%;margin: 10px;}
+.imglist a {width: 100%;margin: 10px auto;}
 .imglist a img{
     width: 100%;
     aspect-ratio: 3/2;

@@ -141,7 +141,7 @@ nav a svg.active{fill:#000 !important;}
 h1{
     color: #fff;
     font-family:'Roboto Slab', serif;
-    font-size: 40px;
+    font-size:1.3em;
     width: max-content;
     margin: auto;
 }
@@ -180,6 +180,7 @@ h1{
 }
 #popover-menu a{ color: #000; }
 #popover-menu li{ padding: 10px; }
+main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
 @media only screen and (min-width:992px) {
     nav {
         max-width: 100%;
@@ -243,7 +244,7 @@ h1{
 
     #pages{ position: relative; }
     #pages a{ opacity: .5; }
-
+    h1{ font-size:40px; }
     #pages a:hover{ 
         opacity: 1;
         transition: opacity 800ms;
@@ -299,7 +300,6 @@ h1{
     }
 }
 
-/* article {z-index: -10;} */
 @media only screen and (min-width: 1249px) and (max-width: 1499px) { #menu { width: 80% !important; } }
 
 @media only screen and (min-width: 999px) and (max-width: 1249px) { #menu { width: 80% !important; } }
