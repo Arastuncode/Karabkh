@@ -35,9 +35,9 @@ const imgList = document.querySelector(".imglist");
 
 for (let i = 0; i < imgs.length; i++) {
   imgList.innerHTML += `
-    <a href="./assests/img/${imgs[i][1]}" data-fancybox="group"
+    <a href="./assests/img/photo/${imgs[i][1]}" data-fancybox="group"
         data-caption="${imgs[i][0]}">
-        <img src="./assests/img/${imgs[i][1]}" />
+        <img src="./assests/img/photo/${imgs[i][1]}" />
     </a>
     `;
 }
