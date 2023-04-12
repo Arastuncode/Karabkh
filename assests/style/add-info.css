@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --main: #151e21;
+    --mobile-menu: #f2f2f2;
+    --add-info: #d1c68c;
+    --add-info-headline: #e7e7e8;
+    --active-tab: #918668;
+    --edit: #303a40;
+    --dot: #c4c4c4;
+    --file-upload: #c4c4c41a;
+    --submit-btn: #908668;
+    --checkbox: #d4d4d4;
+    --image-upload: #dfdcd3;
+    --tooltip-hover: #f3f2eb;
+    --input-delete: #e1171714;
+    --page-link: #eee;
+    --input: #ffffff80;
+    --input-form: #22222280;
+    --add-info-tab: #151e214d;
+    --add-info-p: #686868;
+}
+*{ font-family:'Roboto Slab', serif; outline: none;}
+img{margin:10px 0;}
+main div img{
+    width:100%;
+    padding:5px 10px;
+}
+#box {
+    background: var(--image-upload) url(../img/soldier.svg) center center no-repeat;
+    width: 100%;
+    height: 150px;
+}
+#img-upload{
+    width: 100%;
+    margin:auto;
+    border: 1px dashed #d4d6dc33;
+    padding:30px;
+    cursor: pointer;
+}
+#image-uploads{display: none;}
+.upload{
+    padding:15px;
+    color:#000;
+    font:800 16px roboto slab,sans-serif;
+    background: #fff;
+    margin: 10px 0;
+}
+.col-8{background:red}
+#text{
+    background: #fff;
+    padding:15px 20px;
+    margin:10px 0;
+    width:100%;
+}
+h4{
+    font:400 24px roboto slab,sans-serif;
+    color: #000;
+}
+.title{
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    background: var(--add-info-headline);
+    font-size: 18px;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+.title h5::before{
+    content: "";
+    display: inline-block;
+    background: url(../img/arrow-right-black.svg) center no-repeat;
+    width: 20px;
+    height: 10px;
+    margin:0 10px;
+}
+input{
+    width: 98%;
+    padding:10px;
+    margin: 10px auto;
+    border: 1px solid #d4d6dc;
+    color: var(--input-form);
+    font:14px roboto slab,sans-serif;;
+}
+.w-100{width: 99%;}
+#button{text-align: end;}
+#button button{
+    color: #fff;
+    padding: 10px 100px;
+    background: var(--submit-btn);
+    border:none;
+    font-size: 16px;
+}
+@media only screen and (min-width:992px) {
+    #box { height: 345px; }
+    .container { padding:0 50px; }
+    #text{
+        background: var(--mobile-menu);
+        padding:15px 20px;
+        margin:10px 0 10px 50px;
+        width:100%;
+    }
+}

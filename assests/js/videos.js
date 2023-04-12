@@ -43,22 +43,24 @@ for (let i = 0; i < info.length; i++) {
                 <path d="M101 88L80 100L80 76L101 88Z" fill="#918668" />
             </svg>
         </div>
-        <span style="display: none;">${info[i][2]}, ${info[i][0]}</span>
+        <span style="display: none;">${info[i][2]}, ${info[i][0]}, ${info[i][1]}</span>
         <p>${info[i][0]}</p>
         <span>${info[i][1]}</span>
     </div>`
 }
  
 $(".row").html(kod);
-let h5 = $("#h5")
-let iframe = $("iframe")
 $(".modal-toggle").click(function () {
     $('.modal').fadeToggle('fast');
     let src = $(this).next('span').html() 
-    iframe.attr("src",src.split(",")[0])   
-    h5.html(src.split(",")[1]);
+    let text = src.split(",")[1]
+    let date = src.split(",")[2]
+    $("iframe").attr("src",src.split(",")[0])   
+    $("#h5").html(text);
+    $("#p").html(date);
 });  
 $(".close").click(function () {
     $('.modal').fadeToggle('fast');
 }); 
- 
+
+

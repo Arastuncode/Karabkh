@@ -276,16 +276,17 @@ main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
     }
 
     .mobile-menu{display: none;}   
-    .j-center{justify-content: center;}
     .row::after{
         content: "";
         display: table;
         clear: both;
     }
     .col-12{width: 100%;}
+    .col-9{width: 74%;}
     .col-8{width: 65%;}
     .col-6{width: 50%;}
     .col-4{width: 33%;}
+    .col-3{width: 24%;}
     .fleft{float: left;}
     .fright{float: right;}
     #popover {
