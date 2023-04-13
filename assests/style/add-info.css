@@ -20,11 +20,6 @@
     --add-info-p: #686868;
 }
 *{ font-family:'Roboto Slab', serif; outline: none;}
-img{margin:10px 0;}
-main div img{
-    width:100%;
-    padding:5px 10px;
-}
 #box {
     background: var(--image-upload) url(../img/soldier.svg) center center no-repeat;
     width: 100%;
@@ -32,9 +27,9 @@ main div img{
 }
 #img-upload{
     width: 100%;
-    margin:auto;
+    margin:0 auto;
     border: 1px dashed #d4d6dc33;
-    padding:30px;
+    padding:20px;
     cursor: pointer;
 }
 #image-uploads{display: none;}
@@ -45,11 +40,9 @@ main div img{
     background: #fff;
     margin: 10px 0;
 }
-.col-8{background:red}
 #text{
-    background: #fff;
+    background: var(--mobile-menu);
     padding:15px 20px;
-    margin:10px 0;
     width:100%;
 }
 h4{
@@ -85,18 +78,23 @@ input{
 #button{text-align: end;}
 #button button{
     color: #fff;
-    padding: 10px 100px;
+    padding: 10px 1em;
     background: var(--submit-btn);
     border:none;
     font-size: 16px;
 }
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:790px) {
     #box { height: 345px; }
     .container { padding:0 50px; }
+    #img-upload{width:30%;}
     #text{
-        background: var(--mobile-menu);
-        padding:15px 20px;
-        margin:10px 0 10px 50px;
-        width:100%;
+        width: 70%;
+        padding:15px;
+        margin:0 0 0 40px;
+    }
+    #d-flex{
+        display:flex;
+        justify-content:space-between;
+        align-items:start;
     }
 }
