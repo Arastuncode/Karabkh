@@ -21,10 +21,6 @@
 }
 *{ font-family:'Roboto Slab', serif; }
 img{margin:10px 0;}
-main div img{
-    width:100%;
-    padding:5px 10px;
-}
 #video img{width:100%;}
 #video {
     width: 100%;
@@ -93,6 +89,7 @@ iframe{
     text-align: start;
 }
 span{ text-align: start; margin:0 0 0 10px; font-size:16px;}
+#popover-trigger img {margin: 0;}
 @media only screen and (min-width:992px) {
     .video img{ height: auto; }
     #text{ width: 70%; }

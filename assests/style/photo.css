@@ -19,24 +19,18 @@
     --add-info-tab: #151e214d;
     --add-info-p: #686868;
 }
+img{margin:0; padding:0}
 .gallery {
-    position: relative;
     column-count: 3;
-    column-gap: 0;
+    column-gap: 3;
     width: 100%;
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 .box {
-    position: relative;
-    transform-style: preserve-3d;
+    transform-style: float;    
     overflow: hidden;
-    display: grid;
-    place-items: center;
-    transform: translate(0, 0) rotateX(0deg) rotateY(0deg);
-    margin: 20px 10px;
-    page-break-inside: avoid;
-    perspective: 512px;
+    margin: 0 10px;
     transition: 0.3s ease-out;
 }
 
@@ -45,6 +39,7 @@
     height: calc(100% + 50px);
     pointer-events: none;
     transition: 0.3s ease-out;
+    margin: 10px 0;
 }
 .box:hover img { transform: scale(1.1); }  
 @media (max-width: 781px) {
