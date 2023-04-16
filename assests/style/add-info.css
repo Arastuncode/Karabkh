@@ -86,9 +86,9 @@ input{
 @media only screen and (min-width:790px) {
     #box { height: 345px; }
     .container { padding:0 50px; }
-    #img-upload{width:30%;}
+    #img-upload{width:25%;}
     #text{
-        width: 70%;
+        width: 75%;
         padding:15px;
         margin:0 0 0 40px;
     }

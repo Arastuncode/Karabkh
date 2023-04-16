@@ -52,16 +52,11 @@ main div img{
 .modal-toggle svg {width: 30%;margin:0 15px;}
 .text{margin:20px 0;}
 main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); }
-h2{
-    font-size:93px;
-    color: var(--active-tab);
-    text-transform: uppercase;
-    text-align: center;
-}
 h4{
     font-size:1.5em;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 p{
     font-size:.875rem;
