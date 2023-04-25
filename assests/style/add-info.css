@@ -83,6 +83,9 @@ input{
     border:none;
     font-size: 16px;
 }
+
+.add-border-green{ border: 1px solid #60b95c !important; }
+.add-border-red{ border: 1px solid #E2788A !important; }
 @media only screen and (min-width:790px) {
     #box { height: 345px; }
     .container { padding:0 50px; }
