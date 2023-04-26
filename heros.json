@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "ABAKAROV NAİL MÜZƏFFƏR OĞLU",
+        "birthPlace" : "Tatarıstan, Rusiya Federasiyası", 
+        "birthDate"  : "24 İyul 2001",
+        "deathDate"  : "27 Sentyabr 2020",
+        "age": 19,
+        "img": "https://karabakhlife.az/resized/fit310x370/center/person/117.jpg"
+    },
+    {
+        "name" : "ABASOV AYAZ NİZAMİ OĞLU",
+        "birthDate"  : "20 Dekabr 1998",
+        "birthPlace" : "Cəlilabad, Azərbaycan", 
+        "deathDate"  : "3 Oktyabr 2020",
+        "age": 21,
+        "img" : "https://karabakhlife.az/resized/fit310x370/center/person/119.jpg"
+    },
+    {
+        "name" : "ABASOV DAVUD YALÇIN OĞLU",
+        "birthDate"  : "19 Noyabr 1999 ",
+        "birthPlace" : "Cəlilabad rayonu, Sabirabad kəndi", 
+        "deathDate"  : "16 Oktyabr 2020",
+        "age": 20,
+        "img" : "https://karabakhlife.az/resized/fit310x370/center/person/120.jpg"
+    },
+    {
+        "name" : "ABASOV ELVİN SƏXAVƏT OĞLU",
+        "birthDate"  : "17 İyun 1993",
+        "birthPlace" : "Şamaxı rayonu, Çarhan rayonu", 
+        "deathDate"  : "22 Noyabr 2020",
+        "age": 27,
+        "img" : "https://karabakhlife.az/resized/fit310x370/center/person/121.jpg"
+    },
+    {
+        "name" : "ABASOV RUSLAN HİKMƏT OĞLU",
+        "birthPlace" : "Sahil qəsəbəsi", 
+        "birthDate"  : "24 May 2000",
+        "deathDate"  : "16 Oktyabr 2020",
+        "age": 20,
+        "img" : "https://karabakhlife.az/resized/fit310x370/center/person/122.jpg"
+    },
+    {
+        "name" : "ABASOV SAMİR ADƏM OĞLU",
+        "birthPlace" : "Şabran rayonu, Uzunboyad kəndi , Azərbaycan", 
+        "birthDate"  : "24 Avqust 2001",
+        "deathDate"  : "",
+        "age": "",
+        "education": "",
+        "img" : "https://karabakhlife.az/resized/fit310x370/center/pages/123/1253085481467251105122124047116805869203582o-1.jpg"
+    }
+]
