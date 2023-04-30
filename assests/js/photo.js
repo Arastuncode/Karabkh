@@ -29,14 +29,12 @@ const imgList = $(".imglist");
 let kod = "";
 for (let i = 0; i < imgs.length; i++) {
   kod +=
-   `
-    <div class="box">
-      <a href="./assests/img/photo/${imgs[i][1]}" data-fancybox="group"
-        data-caption="${imgs[i][0]}">
-        <img src="./assests/img/photo/${imgs[i][1]}" />
-      </a>
-    </div>
-    `;
+  `<div class="box">
+    <a href="./assests/img/photo/${imgs[i][1]}" data-fancybox="group"
+      data-caption="${imgs[i][0]}">
+      <img src="./assests/img/photo/${imgs[i][1]}" />
+    </a>
+  </div>`;
 }
 imgList.html(kod);
 
@@ -64,7 +62,6 @@ boxes.forEach((box) => {
       }px ${(box.offsetTop + box.clientHeight - e.pageY) / -8 + 20}px`
     );
   });
-
   box.addEventListener("mouseout", () => {
     box.removeAttribute("style");
     box.querySelector("img").removeAttribute("style");

@@ -19,23 +19,5 @@ $(".modal-toggle").click(function () {
         src.attr("src",'https://www.youtube.com/embed/d_QQ27v_TtQ')
     }
     $('.modal').fadeToggle('fast');
-
 });  
-$(".close").click(function () {
-    $('.modal').fadeToggle('fast');
-
-});  
-// attr('src')
-
-{/* <div class="modal">
-<div class="modal-body">
-    <div class="d-flex">
-        <div class="h5">
-            <h5>İLHAM ƏLİYEVİN VƏTƏN MÜHARİBƏSİNDƏ QƏLƏBƏYƏ HƏSR OLUNMUŞ ZƏFƏR PARADINDA NİTQİ</h5>
-            <p>02.02.2021</p>
-        </div>
-        <button class="close">X</button>
-    </div>
-    <img src="./assests/img/parad-video-2.png" alt="">
-</div>
-</div> */}
+$(".close").click(function () { $('.modal').fadeToggle('fast') });  

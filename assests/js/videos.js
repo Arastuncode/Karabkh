@@ -48,19 +48,3 @@ for (let i = 0; i < info.length; i++) {
         <span>${info[i][1]}</span>
     </div>`
 }
- 
-$(".row").html(kod);
-$(".modal-toggle").click(function () {
-    $('.modal').fadeToggle('fast');
-    let src = $(this).next('span').html() 
-    let text = src.split(",")[1]
-    let date = src.split(",")[2]
-    $("iframe").attr("src",src.split(",")[0])   
-    $("#h5").html(text);
-    $("#p").html(date);
-});  
-$(".close").click(function () {
-    $('.modal').fadeToggle('fast');
-}); 
-
-

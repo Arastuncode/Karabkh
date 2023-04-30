@@ -32,12 +32,6 @@ img{margin:5px;}
 }
 #video{ transform: translate(0,25%); }
 .p-relative{ position: relative; }
-.modal-toggle{
-    position: absolute;
-    top: 5%;
-    left: 30%;
-}
-.modal-toggle svg {width: 100%;}
 .text{margin:20px 0;}
 h1{font-size:5vw;}
 h2{
@@ -55,46 +49,14 @@ p{
     font-size:.875rem;
     color: #000;
 }
-.modal{
-    width:90%; 
-    background: #fff;
-    padding:15px 30px;
-    position: fixed;
-    top: 8%;
-    left: 5%;
-    display: none;
-    text-align: start;
-}
-.modal p{ margin:10px 0; }
-.modal button{
-    border: none ;
-    background: transparent;
-    font-size:1em;
-    cursor: pointer;
-}
-.t-center{ text-align: center; }
-iframe{
-    margin:10px;
-    width: 100%;
-    height: 70vh;
-}
+
 @media only screen and (min-width:992px) {
    main div img{ min-height: 55vh; }
     .video img{ height: auto; }
-    #parad-text{ width: 70%; }
+    #parad-text{ width: 70%; padding:80px 10px 10px 10px; }
     #video img{width: 60%;}
     h1{font-size:2.5em;}
     h2{font-size: 260px;}
     .text{margin:20px 100px;}
     h4{font-size:32px}
-    .modal{
-        width:60%; 
-        transform: translate(25%,0%);
-    }
-    iframe{ width: 80%; }
-    #parad-text{ padding:80px 10px 10px 10px; }
-    .modal-toggle{
-        top: 30%;
-        left: 45%;
-    }
 }

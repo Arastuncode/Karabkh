@@ -52,7 +52,6 @@
                         <ul class="dropdown-menu">
                             <li><a href="add-info.htm">Şəhidlər haqqında</a></li>
                             <li><a href="#">Qarabağ fotobank</a></li>
-                            <li><a href="#">Məktub və hekayə</a></li>
                         </ul>
                     </div>
                     <div class="hamburger-menu">
@@ -91,76 +90,60 @@
                 </div>
                 <div class="row">
                     <div class="col-6 fleft">
-                        <input type="text"   placeholder="Ad" name="ad">
+                        <input type="text" placeholder="Ad" id="name">
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Soyad">
+                        <input type="text" placeholder="Soyad" id="surname">
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Ata adı">
+                        <input type="text" placeholder="Ata adı" id="fName">
                     </div>
                     <div class="col-6 fleft">
                         <div class="row">
                             <div class="col-6 fleft">
-                                <input type="text" class="date"  placeholder="Doğulduğu tarixi">
+                                <input type="text" class="date"  placeholder="Doğulduğu tarixi" id="birthDate">
                             </div>
                             <div class="col-6 fleft">
-                                <input type="text" class="date"  placeholder="Vəfat tarixi">
+                                <input type="text" class="date"  placeholder="Vəfat tarixi" id="deathDate">
                             </div>
                         </div>
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Doğulduğu ölkə">
+                        <input type="text"  placeholder="Doğulduğu ölkə" id="birthCountry">
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Doğulduğu şəhər">
+                        <input type="text"  placeholder="Doğulduğu şəhər" id="birthCity">
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Həyat yoldaşı">
+                        <input type="text"  placeholder="Həyat yoldaşı" id="wife">
                     </div>
                     <div class="col-6 fleft">
-                        <input type="text"  placeholder="Uşaqları">
+                        <input type="text" placeholder="Doğulduğu qəsəbə" id="birthTown">
                     </div>
-                    <input type="text"  class="w-100" placeholder="Doğulduğu qəsəbə">
+                    <input type="text"  class="w-100" placeholder="Uşaqları" id="children">
                 </div>
                 <div class="title">
                     <h5>TƏHSİLİ</h5>
                 </div>
-                <input type="text"  class="w-100" placeholder="Təhsil müəsissəsinin adı">
+                <input type="text"  class="w-100" placeholder="Təhsil müəsissəsinin adı" id="educationPlace">
                 <div class="title">
-                    <h5> HƏRBİ FƏALİYYƏTİ</h5>
+                    <h5>HƏRBİ FƏALİYYƏTİ</h5>
                 </div>
                 <div class="row">
-                    <div class="col-6 fleft">
-                        <input type="text"  placeholder="Dropdown">
-                    </div>
                     <div class="col-6 fleft">
                         <input type="text"  placeholder="Qoşun növü">
                     </div>
                     <div class="col-6 fleft">
                         <input type="text"  placeholder="Hərbi hissə">
                     </div>
-                    <div class="col-6 fleft">
-                        <input type="text"  placeholder="Dropdown">
-                    </div>
-                    <input type="text"  class="w-100" placeholder="Dropdown">
-                    <div class="col-6 fleft">
-                        <input type="text"  placeholder="Dropdown">
-                    </div>
-                    <div class="col-6 fleft">
-                        <input type="text"  placeholder="Dropdown">
-                    </div>
                     <input type="text"  placeholder="Döyüşdüyü ərazilər">
-                    <input type="text"  class="w-100" placeholder="Doğulduğu qəsəbə">
                 </div>
                 <div class="title">
                     <h5>HAQQINDA ƏLAVƏ MƏLUMAT BLOKLARI</h5>
                 </div>
-                <div class="row">
-
-                </div>
+                <input type="text" class="w-100"  placeholder="Haqqında Əlavə Məlumat">
                 <div id="button">
-                    <button class="btn">TƏSDİQ ET</button>
+                    <button class="btn" id="add-btn">TƏSDİQ ET</button>
                 </div>
             </div>
         </div>
@@ -170,8 +153,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
     <script src="./assests/js/mask.js"></script>
     <script src="./assests/js/index.js"></script>
-    <script type="module" src="./assests/js/info.js"></script>
-    <script type="module" src="./assests/js/heros.js"></script>
+    <script src="./assests/js/info.js"></script>
+    <script src="./assests/js/heros.js"></script>
 </body>
 
 </html>

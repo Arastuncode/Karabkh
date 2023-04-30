@@ -185,6 +185,43 @@ main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
     width:100%;
     padding:5px 10px;
 }
+#video .modal-toggle,
+.row .modal-toggle{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+#video .modal-toggle{
+    top: 30%;
+    left: 25%;
+}
+.modal-toggle svg {width: 30%;margin:0 15px;}
+.modal{
+    width:90%; 
+    background: #fff;
+    padding:15px 30px;
+    position: fixed;
+    top: 8%;
+    left: 5%;
+    display: none;
+    text-align: start;
+}
+.modal p{ margin:10px 0; }
+.modal button{
+    border: none ;
+    background: transparent;
+    font-size:1em;
+    cursor: pointer;
+}
+iframe{
+    margin:10px auto;
+    width: 100%;
+    height: 70vh;
+}
+.t-center{ text-align: center; }
 @media only screen and (min-width:992px) {
     nav {
         max-width: 100%;
@@ -266,7 +303,7 @@ main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
         transition: all 0.5s;
         margin:10px 0 0 0;
     }   
-      
+    
     #pages li a:after {
         content: "";
         width: 0;
@@ -294,8 +331,29 @@ main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));}
     .fleft{float: left;}
     .fright{float: right;}
     #popover { display: none; }
+    .modal{
+        width:60%; 
+        transform: translate(25%,0%);
+    }
+    iframe{ width: 80%; }
+    #video .modal-toggle,
+    .row .modal-toggle{
+        width: 50%;
+        top: 30%;
+        left:25%;
+    }
 }
-
+@media only screen and (max-width:360px) {
+    .modal-toggle{
+        width: 50%;
+        top: 5%;
+        left:25%;
+    }
+    #video .modal-toggle{
+        top: 10%;
+        left: 25%;
+    }
+}
 @media only screen and (min-width: 1249px) and (max-width: 1499px) { #menu { width: 80% !important; } }
 
 @media only screen and (min-width: 999px) and (max-width: 1249px) { #menu { width: 80% !important; } }

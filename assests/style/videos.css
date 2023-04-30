@@ -33,19 +33,7 @@ img{margin:10px 0;}
 }
 #video{ transform: translate(0,25%);}
 .p-relative{position: relative;}
-.modal-toggle{
-    position: absolute;
-    top: 30%;
-    left: 25%;
-    text-align: center;
-    width: 50%;
-    margin:auto;
-}
-#video .modal-toggle{
-    top: 30%;
-    left: 25%;
-}
-.modal-toggle svg {width: 30%;margin:0 15px;}
+
 .text{margin:20px 0;}
 main { font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); }
 h4{
@@ -58,29 +46,6 @@ p{
     font-size:.875rem;
     color: #000;
 }
-.modal{
-    width:90%; 
-    background: #fff;
-    padding:15px 30px;
-    position: fixed;
-    top: 8%;
-    left: 5%;
-    display: none;
-    text-align: start;
-}
-.modal p{ margin:10px 0; }
-.modal button{
-    border: none ;
-    background: transparent;
-    font-size:1em;
-    cursor: pointer;
-}
-.t-center{ text-align: center; }
-iframe{
-    margin:10px auto;
-    width: 100%;
-    height: 70vh;
-}
 .row svg{width: 50%;}
 .row p {
     font-size:24px;
@@ -90,6 +55,7 @@ iframe{
 }
 span{ text-align: start; margin:0 0 0 10px; font-size:16px;}
 #popover-trigger img {margin: 0;}
+
 @media only screen and (min-width:992px) {
     .video img{ height: auto; }
     #text{ width: 70%; }
@@ -98,30 +64,10 @@ span{ text-align: start; margin:0 0 0 10px; font-size:16px;}
     h2{font-size: 260px;}
     .text{margin:20px 100px;}
     h4{font-size:32px}
-    .modal{
-        width:60%; 
-        transform: translate(25%,0%);
-    }
-    iframe{ width: 100%; }
     #text{ padding:50px 10px 10px 10px; }
-    .modal-toggle{
-        width: 50%;
-        top: 30%;
-        left:25%;
-    }
     .row p{font-size: 24px;}
 }
-@media only screen and (max-width:360px) {
-    .modal-toggle{
-        width: 50%;
-        top: 5%;
-        left:25%;
-    }
-    #video .modal-toggle{
-        top: 10%;
-        left: 25%;
-    }
-}
+
 /* div{
     width: 1px;
     background-color: #918668;
