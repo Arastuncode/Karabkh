@@ -47,8 +47,8 @@ $.getJSON("heros.json", function (data) {
   let kod = "";
   $.each(data, function (key,value) { arr.push(value) });
   $.each(data, function (key, value) {
-    kod += `<div class="card modal-toggle" onclick="op(this)" style="background-image:url(${value.img})" id="card${key}">
-      <h6>${value.name}</h6>
+    kod += `<div class="card" onclick="op(this)" style="background-image:url(${value.img})" id="card${key}">
+      <div class="shadow"><h6>${value.name}</h6></div>
     </div>`
   });
   
@@ -60,17 +60,29 @@ function op(x){
   let index = parseFloat(id.match(/\d+\.\d+|\d+/))
   let newArr = arr[index];
   let kod = ''
-  console.log(newArr);
-  $.each(newArr, function (key, value) {
-    kod +=  `<div class="modal-body">
-    <div class="d-flex">
-      <div>
-        <h5 id="h5">${value}</h5>
-        <p id="p"></p>
+  let array = [];
+  $.each(newArr, function (key){ array.push(newArr[key]) })
+  kod +=  `
+  <div class="d-flex">
+    <div id="hero-img">
+      <h2>${array[1]}</h2>
+        <img src="${array[0]}" alt="" />
       </div>
-      <button class="close"><i class="fas fa-times"></i></button>
-    </div>
+      <div id="hero-detail">
+        <div id="text">
+          <p>Doğum tarixi: <span>${array[2]}</span></p>
+          <p>Doğum yeri: <span>${array[3]}</span></p>
+          <p>Vəfat tarixi: <span>${array[4]}</span></p>
+          <p>Təhsili: <span>${array[6]}</span></p>
+        </div>
+      </div>
   </div>`
-  });
-  $(".container").append(kod)
+  $(".detail").html(kod)
+  $("#heros-cards").hide(500)
+  $("#detail").show(500)
 }
+
+$(".back").click(function () {
+  $("#heros-cards").show(500)
+  $("#detail").hide(500)
+})
