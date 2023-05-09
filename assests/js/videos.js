@@ -34,7 +34,7 @@ let kod ="";
 
 for (let i = 0; i < info.length; i++) {
     kod += 
-    `<div class="col-6 fleft p-relative">
+    `<div class="col-6 fleft p-relative fade-in">
         <img src="./assests/img/videos/${[i]+'.jpg'}" alt="" />
         <div class="modal-toggle d-flex" id="parad">
             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="176" viewBox="0 0 176 176" fill="none">
@@ -47,4 +47,17 @@ for (let i = 0; i < info.length; i++) {
         <p>${info[i][0]}</p>
         <span>${info[i][1]}</span>
     </div>`
+    $(".row").html(kod)
 }
+
+let h5 = $("#h5")
+let iframe = $("iframe")
+$(".modal-toggle").click(function () {
+  $('.modal').fadeToggle('fast');
+  let src = $(this).next('span').html() 
+  iframe.attr("src",src.split(",")[0])   
+  h5.html(src.split(",")[1]);
+});  
+$(".close").click(function () {
+  $('.modal').fadeToggle('fast');
+}); 

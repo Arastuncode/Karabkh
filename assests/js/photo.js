@@ -29,7 +29,7 @@ const imgList = $(".imglist");
 let kod = "";
 for (let i = 0; i < imgs.length; i++) {
   kod +=
-  `<div class="box">
+  `<div class="box  fade-in">
     <a href="./assests/img/photo/${imgs[i][1]}" data-fancybox="group"
       data-caption="${imgs[i][0]}">
       <img src="./assests/img/photo/${imgs[i][1]}" />

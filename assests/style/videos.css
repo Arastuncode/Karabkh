@@ -54,8 +54,6 @@ p{
     text-align: start;
 }
 span{ text-align: start; margin:0 0 0 10px; font-size:16px;}
-#popover-trigger img {margin: 0;}
-
 @media only screen and (min-width:992px) {
     .video img{ height: auto; }
     #text{ width: 70%; }
