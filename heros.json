@@ -2,157 +2,140 @@
     {
         "img": "https://karabakhlife.az/resized/fit310x370/center/person/117.jpg",
         "name" : "ABAKAROV NAİL MÜZƏFFƏR OĞLU",
-        "birthPlace" : "Tatarıstan, Rusiya Federasiyası", 
-        "birthDate"  : "24 İyul 2001",
-        "deathDate"  : "27 Sentyabr 2020",
-        "age": 19
+        "doğum-yeri" : "Tatarıstan, Rusiya Federasiyası", 
+        "doğum-tarixi"  : "24 İyul 2001",
+        "vəfat-tarixi"  : "27 Sentyabr 2020",
+        "yaşı" : 19
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/119.jpg",
         "name" : "ABASOV AYAZ NİZAMİ OĞLU",
-        "birthDate"  : "20 Dekabr 1998",
-        "birthPlace" : "Cəlilabad, Azərbaycan", 
-        "deathDate"  : "3 Oktyabr 2020",
-        "age": 21
+        "doğum-tarixi"  : "20 Dekabr 1998",
+        "doğum-yeri" : "Cəlilabad, Azərbaycan", 
+        "vəfat-tarixi"  : "3 Oktyabr 2020",
+        "yaşı": 21
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/120.jpg",
         "name" : "ABASOV DAVUD YALÇIN OĞLU",
-        "birthDate"  : "19 Noyabr 1999 ",
-        "birthPlace" : "Cəlilabad rayonu, Sabirabad kəndi", 
-        "deathDate"  : "16 Oktyabr 2020",
-        "age": 20
+        "doğum-tarixi"  : "19 Noyabr 1999 ",
+        "doğum-yeri" : "Cəlilabad rayonu, Sabirabad kəndi", 
+        "vəfat-tarixi"  : "16 Oktyabr 2020",
+        "yaşı": 20
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/121.jpg",
         "name" : "ABASOV ELVİN SƏXAVƏT OĞLU",
-        "birthDate"  : "17 İyun 1993",
-        "birthPlace" : "Şamaxı rayonu, Çarhan rayonu", 
-        "deathDate"  : "22 Noyabr 2020",
-        "age": 27
+        "doğum-tarixi"  : "17 İyun 1993",
+        "doğum-yeri" : "Şamaxı rayonu, Çarhan rayonu", 
+        "vəfat-tarixi"  : "22 Noyabr 2020",
+        "yaşı": 27
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/122.jpg",
         "name" : "ABASOV RUSLAN HİKMƏT OĞLU",
-        "birthPlace" : "Sahil qəsəbəsi", 
-        "birthDate"  : "24 May 2000",
-        "deathDate"  : "16 Oktyabr 2020",
-        "age": 20
+        "doğum-yeri" : "Sahil qəsəbəsi", 
+        "doğum-tarixi"  : "24 May 2000",
+        "vəfat-tarixi"  : "16 Oktyabr 2020",
+        "yaşı": 20
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/pages/123/1253085481467251105122124047116805869203582o-1.jpg",
         "name" : "ABASOV SAMİR ADƏM OĞLU",
-        "birthPlace" : "Şabran rayonu, Uzunboyad kəndi , Azərbaycan", 
-        "birthDate"  : "24 Avqust 2001",
-        "deathDate"  : "",
-        "age": "",
-        "education": ""
+        "doğum-yeri" : "Şabran rayonu, Uzunboyad kəndi , Azərbaycan", 
+        "doğum-tarixi"  : "24 Avqust 2001"
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/person/124.jpg",
         "name" : "ABASOV SEYMUR ADİL OĞLU",
-        "birthPlace" : "Göygöl, Azərbaycan", 
-        "birthDate"  : "10 Avqust 1999",
-        "deathDate"  : "16 Noyabr 2020",
-        "age": "",
-        "education": "2017-ci ildən Heydər Əliyev adına Azərbaycan Ali Hərbi Məktəbi (AAHM) - Kursant"
+        "doğum-yeri" : "Göygöl, Azərbaycan", 
+        "doğum-tarixi"  : "10 Avqust 1999",
+        "vəfat-tarixi"  : "16 Noyabr 2020",
+        "yaşı": 21
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/person/125.jpg",
         "name" : "ABBASBƏYLİ HƏMİD CAVANŞİR OĞLU",
-        "birthPlace" : "Bakı, Azərbaycan", 
-        "birthDate"  : "17 Noyabr 1991",
-        "deathDate"  : "20 Oktyabr 2020",
-        "age": "",
-        "education": "Cəmşid Naxçıvanski adına Hərbi lisey"
+        "doğum-yeri" : "Bakı, Azərbaycan", 
+        "doğum-tarixi"  : "17 Noyabr 1991",
+        "vəfat-tarixi"  : "20 Oktyabr 2020",
+        "yaşı": 28
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/person/126.jpg",
         "name" : "ABBASƏLİYEV HÜSEYN ADİL OĞLU",
-        "birthPlace" : "", 
-        "birthDate"  : "22 Oktyabr 2000",
-        "deathDate"  : "",
-        "age": "",
-        "education": ""
+        "doğum-tarixi"  : "22 Oktyabr 2000"
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/person/127.jpg",
         "name" : "ABBASLI ARİF FİRUZ OĞLU",
-        "birthPlace" : "Şərur rayonu, Azərbaycan", 
-        "birthDate"  : "15 Dekabr 1993",
-        "deathDate"  : "12 Oktyabr 2020",
-        "age": "",
-        "education": "Heydər Əliyev adına Azərbaycan Ali Hərbi Məktəbində (AAHM), Azərbaycan"
+        "doğum-yeri" : "Şərur rayonu, Azərbaycan", 
+        "doğum-tarixi"  : "15 Dekabr 1993",
+        "vəfat-tarixi"  : "12 Oktyabr 2020",
+        "yaşı": 26
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/pages/2842/9a6517cee841d11d89dc9a17235c3ba5.jpg",
         "name" : "ABBASOV MEHDİ YUSİF OĞLU",
-        "birthPlace" : "", 
-        "birthDate"  : "1 Yanvar 1960",
-        "deathDate"  : "13 Yanvar 1992",
-        "age": "",
-        "education": ""
+        "doğum-yeri" : "", 
+        "doğum-tarixi"  : "1 Yanvar 1960",
+        "vəfat-tarixi"  : "13 Yanvar 1992",
+        "yaşı": 71
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/pages/2874/250px-ma-allahabdullayev-1.jpg",
         "name" : "ABDULLAYEV MAŞALLAH BABAKİŞİ OĞLU",
-        "birthPlace" : "Kəpənəkçi, Goranboy rayonu, Azərbaycan SSR, SSRİ", 
-        "birthDate"  : "27 May 1950",
-        "deathDate"  : "3 Fevral 2021",
-        "age": "",
-        "education": "Bakı Bədən Tərbiyəsi Texnikumu, Azərbaycan SSR"
+        "doğum-yeri" : "Kəpənəkçi, Goranboy rayonu, Azərbaycan SSR, SSRİ", 
+        "doğum-tarixi"  : "27 May 1950",
+        "vəfat-tarixi"  : "3 Fevral 2021",
+        "yaşı": ""
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/2923.jpg",
         "name" : "ABDULLAYEV ŞÖVQİYAR CƏMİL OĞLU",
-        "birthPlace" : "Nərimanlı, Basarkeçər rayonu, Qərbi Azərbaycan, SSRİ", 
-        "birthDate"  : "4 May 1969",
-        "deathDate"  : "27 Avqust 1992",
-        "age": "",
-        "education": "Azərbaycan Politexnik İnstitutu, Bakı, Azərbaycan"
+        "doğum-yeri" : "Nərimanlı, Basarkeçər rayonu, Qərbi Azərbaycan, SSRİ", 
+        "doğum-tarixi"  : "4 May 1969",
+        "vəfat-tarixi"  : "27 Avqust 1992",
+        "yaşı": 23
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/2926.jpg",
         "name" : "BAĞIROV ALLAHVERDİ TEYMUR OĞLU",
-        "birthPlace" : "Ağdam, Azərbaycan SSR", 
-        "birthDate"  : "22 Aprel 1946",
-        "deathDate"  : "14 İyun 1992",
-        "age": "",
-        "education": "Ağdam şəhər 1 saylı məktəb, Ağdam, Azərbaycan"
+        "doğum-yeri" : "Ağdam, Azərbaycan SSR", 
+        "doğum-tarixi"  : "22 Aprel 1946",
+        "vəfat-tarixi"  : "14 İyun 1992",
+        "yaşı": 46
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/pages/2897/salat-n-sg-rova-1.jpg",
         "name" : "ƏSGƏROVA SALATIN ƏZİZ QIZI",
-        "birthPlace" : "Bakı, Azərbaycan SSR, SSRİ", 
-        "birthDate"  : "16 Dekabr 1961",
-        "deathDate"  : "1 Sentyabr 1991",
-        "age": "",
-        "education": "Azərbaycan Dövlət Neft və Sənaye Universiteti, Azərbaycan SSR"
+        "doğum-yeri" : "Bakı, Azərbaycan SSR, SSRİ", 
+        "doğum-tarixi"  : "16 Dekabr 1961",
+        "vəfat-tarixi"  : "1 Sentyabr 1991",
+        "yaşı": 29
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/pages/2936/glt-kin-sg-rova-1.jpg",
         "name" : "ƏSGƏROVA GÜLTƏKİN MƏLİK QIZI",
-        "birthPlace" : "Bakı, Azərbaycan SSRİ", 
-        "birthDate"  : "20 Noyabr 1960",
-        "deathDate"  : "19 İyul 1992",
-        "age": ""
+        "doğum-yeri" : "Bakı, Azərbaycan SSRİ", 
+        "doğum-tarixi"  : "20 Noyabr 1960",
+        "vəfat-tarixi"  : "19 İyul 1992",
+        "yaşı": 31
     },
     {
         "img" : "https://karabakhlife.az/resized/fit300x360/center/pages/3140/mubarizibrahimov.jpg",
         "name" : "İBRAHİMOV MÜBARİZ AĞAKƏRİM",
-        "birthPlace" : "Əliabad, Puşkin rayonu, Azərbaycan SSR, SSRİ", 
-        "birthDate"  : "7 Fevral 1988",
-        "deathDate"  : "19 İyun 2010",
-        "age": "",
-        "education": ""
+        "doğum-yeri" : "Əliabad, Puşkin rayonu, Azərbaycan SSR, SSRİ", 
+        "doğum-tarixi"  : "7 Fevral 1988",
+        "vəfat-tarixi"  : "19 İyun 2010",
+        "yaşı": 22
     },
     {
         "img" : "https://karabakhlife.az/resized/fit310x370/center/person/13.jpg",
         "name" : "HƏŞİMOV POLAD İSRAYIL OĞLU",
-        "birthPlace" : "Vəndam, Qutqaşen rayonu, Azərbaycan SSR, SSRİ", 
-        "birthDate"  : "2 Yanvar 1975",
-        "deathDate"  : "14 İyul 2020",
-        "age": "",
-        "education": "Bakı Ali Ümumqoşun Komandirlər Məktəbi, Türkiyə Quru Qoşunları məktəbi"
+        "doğum-yeri" : "Vəndam, Qutqaşen rayonu, Azərbaycan SSR, SSRİ", 
+        "doğum-tarixi"  : "2 Yanvar 1975",
+        "vəfat-tarixi"  : "14 İyul 2020",
+        "yaşı":45
     }
 ]

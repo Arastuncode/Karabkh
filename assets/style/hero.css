@@ -80,9 +80,10 @@ h2{ font-size:32px; color: #fff; margin:10px 0;}
     padding:20px 0;
 }
 #text span{ font-size:16px; }
-#text p{margin: 10px;}
+#text p{margin: 10px; }
+#text p::first-letter{ text-transform: capitalize;}
 @media only screen and (min-width:992px) {
     .card{ width: 30%; padding: 0; min-height: 80vh; margin:10px; }
     h6{ font-size:16px; }
-    #hero-img{ width: 40%; }
+    #hero-img{ width: 40%; height: 50vh;}
 }

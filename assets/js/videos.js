@@ -34,8 +34,8 @@ let kod ="";
 
 for (let i = 0; i < info.length; i++) {
     kod += 
-    `<div class="col-6 fleft p-relative fade-in">
-        <img src="./assests/img/videos/${[i]+'.jpg'}" alt="" />
+    `<div class="col-6 fleft p-relative">
+        <img src="./assets/img/videos/${[i]+'.jpg'}" alt="" />
         <div class="modal-toggle d-flex" id="parad">
             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="176" viewBox="0 0 176 176" fill="none">
                 <circle cx="88" cy="88" r="61" fill="white" />
